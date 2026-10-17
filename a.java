@@ -1,5 +1,5 @@
 import java.util.*;
-#components
+
 class Graph {
     int V;
     ArrayList<ArrayList<Integer>> adj;

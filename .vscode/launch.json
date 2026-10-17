@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "intersectionoflinkedlist",
+            "request": "launch",
+            "mainClass": "intersectionoflinkedlist",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "removeduplicatesfromalinkedlist",
+            "request": "launch",
+            "mainClass": "removeduplicatesfromalinkedlist",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "cycleinalinkedlist",
+            "request": "launch",
+            "mainClass": "cycleinalinkedlist",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "singlyllinreverseorder",
+            "request": "launch",
+            "mainClass": "singlyllinreverseorder",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "linkedlist",
+            "request": "launch",
+            "mainClass": "linkedlist",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "polymorphism",
+            "request": "launch",
+            "mainClass": "polymorphism",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "abstraction",
+            "request": "launch",
+            "mainClass": "abstraction",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "inheritance",
+            "request": "launch",
+            "mainClass": "inheritance",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "statickeyword",
+            "request": "launch",
+            "mainClass": "statickeyword",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "oops2",
+            "request": "launch",
+            "mainClass": "oops2",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "oops",
+            "request": "launch",
+            "mainClass": "oops",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "coinspermutation",
+            "request": "launch",
+            "mainClass": "coinspermutation",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "floodfillalgo",
+            "request": "launch",
+            "mainClass": "floodfillalgo",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "poweroptimised",
+            "request": "launch",
+            "mainClass": "poweroptimised",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "quickSort",
+            "request": "launch",
+            "mainClass": "quickSort",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "mergesort$Main",
+            "request": "launch",
+            "mainClass": "mergesort$Main",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "stringencoding",
+            "request": "launch",
+            "mainClass": "stringencoding",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "mazepaths",
+            "request": "launch",
+            "mainClass": "mazepaths",
+            "projectName": "DSA_e24aa0db"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

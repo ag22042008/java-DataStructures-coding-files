@@ -21,6 +21,6 @@ public class v {
 
        }
        System.out.println(sum);
-      int g=Math.powExact(sum, n)
+      int g=Math.powExact(sum, n);
     }
 }

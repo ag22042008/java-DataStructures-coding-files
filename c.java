@@ -25,7 +25,7 @@ public class c {
 
                 if (a[middle] == c) {
                     count += middle + 1;
-                    if(count==)
+                    if(count==c)
                     low=middle+1;
                     g = false;
                     
