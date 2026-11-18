@@ -10,23 +10,52 @@ public class validsudoko {
       }
     }
     sc.close();
-    if (isValidSudoku(board)) {
+    if (iscorrect(board,0,0)) {
       System.out.println("correct");
     } else {
       System.out.println("incorrect");
     }
   }
+  public static boolean iscorrect(char[][] board, int row, int column){
+    if(row==9){
+      return true ;
+     }
+     if(column==9){
+       return  iscorrect(board, row+1, 0);
+     }
+     if(board[row][column]=='.'){
+      return iscorrect(board, row, column + 1);
+     }
+  char ch = board[row][column];                    // save
+board[row][column] = '.';                        // blank it so it doesn't match itself
+boolean ok = safe(board, row, column, ch - '0');
+board[row][column] = ch;                         // restore
 
-  public static boolean isValidSudoku(char[][] board) {
-     HashSet<Character>s=new HashSet<>();
-     boolean v=true;
-     helper(board,0,0,s,v);
-     return v;
-  }
-
-  private static void helper(char[][] board, int i, int j,HashSet<Character>s,boolean v) {
+  if (!ok) return false;
+  return iscorrect(board, row, column + 1);
      
-    
-
+ }
+  public  static boolean safe(char[][] board, int row, int column, int value) {
+     for(int i=0;i<9;i++){
+        if(board[row][i]== value + '0'){
+           return false;
+        }
+     }
+      for(int i=0;i<9;i++){
+        if(board[i][column]== value + '0'){
+           return false;
+        }
+     }
+     int i1=(row/3)*3;
+     int i2=(column/3)*3;
+     for(int a=0;a<3;a++){
+       for(int b=0;b<3;b++){
+          if(board[a+i1][b+i2]=='0'+value){
+            return false;
+          }
+       }
+     }
+     return true;
   }
+
 }
